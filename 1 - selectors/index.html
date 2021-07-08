@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Talk</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../header/normalize.css" />
+    <link rel="stylesheet" href="../header/header.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sample-header">
+      <div class="sample-header-section">
+        <h1 class="title">Let's start with CSS 👨🏽‍🎨</h1>
+        <h1 class="subtitle">Selectors 👈🏼</h1>
+        <a class= "header-link" href= "https://www.youtube.com/kepowob/videos"> Channel </a>
+      </div>     
+    </div>
+
+     <!------------------------------------------------------------------------------------------------------->
+
+
+
+
+    <h3 class="author">Author: Kevin Powell </h3>
+
+    <section class="the-ones-you-know">
+      <h2>You know these (I hope)</h2>
+      <p>element selector - <code>p</code></p>
+      <p id = "test-id">class selector - <code>.class</code></p>
+      <p>id selector - <code>#id</code> </p>
+    </section>
+
+    <section class="universal">
+      <h2><span>*</span>Universal</h2>
+      <p>This selects EVERYTHING. Every single thing<br> (except ::before and ::after...).</p>
+      <ul>
+        <li>Every</li>
+        <li>Single</li>
+        <li>Thing</li>
+        <li><a href="#">Everything</a></li>
+      </ul>
+    </section>
+
+    <section class="direct-children">
+      <h2><span>></span>Direct children</h2>
+      <p>You can create selectors like this:</p>
+      <code>.direct-children p</code>
+      <p>That will select all paragraphs inside of .direct-children</p>
+      <div class="example">
+        <p>But <code>.direct-child > p</code> will not select this paragraph.</p>
+      </div>
+    </section>
+
+    <section class="adjacent-sibling">
+      <h2> <span>+</span>Adjacent sibling</h2>
+      <div class="box"></div>
+      <div class="box"></div>
+      <span>hi</span>
+      <div class="box"></div>
+      <div class="box"></div>
+    </section>
+
+    <section class="general-sibling">
+      <h2><span>~</span>General Sibling</h2>
+      <div class="box"></div>
+      <div class="box"></div> 
+      <a href="#">hi</a>
+      <div class="box"></div>
+      <div class="box"></div>
+    </section>
+
+    
+     <!------------------------------------------------------------------------------------------------------->
+  </body>
+</html>
+

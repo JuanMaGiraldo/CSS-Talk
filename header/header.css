@@ -1,0 +1,45 @@
+.sample-header {
+  display: block;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-image: url("header.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sample-header-section {
+  height: 80px;
+  text-align: center;
+}
+
+.sample-header-section .title {
+  margin: 0px 0px 10px 0px;
+  color: white;
+  text-align: center;
+  font-family: "Neuton", serif;
+  text-shadow: 3px 4px rgba(black, 0.1);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sample-header-section .subtitle {
+  color: white;
+  text-align: center;
+  font-family: "Neuton", serif;
+  font-size: 18px;
+
+  @media (max-width: 105px) {
+    font-size: 5px;
+  }
+}
+
+.header-link {
+  color: rgb(165, 219, 233);
+  font-weight: bold;
+}
+
+.title {
+  color: black;
+}
