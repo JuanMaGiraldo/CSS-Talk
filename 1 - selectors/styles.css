@@ -96,27 +96,6 @@ section {
    Direct children
    ================================= */
 
-.direct-children p {
-  color: red;
-}
-
-.example p {
-  color: blue;
-}
-
 /* =================================
    Adjacent siblings
    ================================= */
-
-.adjacent-sibling .box + .box {
-  margin-left: 40px;
-  background-color: greenyellow;
-}
-/* =================================
-   General siblings
-   ================================= */
-
-.general-sibling .box ~ .box {
-  margin-left: 40px;
-  background-color: greenyellow;
-}

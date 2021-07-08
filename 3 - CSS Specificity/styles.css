@@ -10,33 +10,6 @@
   border-radius: 10px;
 }
 
-/*especificidad: * - id - class - element*/
-
-/* 0, 0, 1, 1, 1*/
-span#span-id.span-class {
-  /* background-color: red; */
-}
-
-/* 1, 0, 0, 0, 1 */
-span {
-  background-color: rgb(184, 184, 124);
-}
-
-/* 0, 0, 2, 0 */
-.div-class .span-class {
-  background-color: rgb(121, 121, 9);
-}
-
 .span-class {
-  background-color: red;
-}
-
-/* 0, 0, 0, 1 */
-span {
-  background-color: yellowgreen;
-}
-
-/* 0, 0, 0, 1 */
-span {
-  background-color: blue;
+  background-color: rgb(78, 98, 98);
 }

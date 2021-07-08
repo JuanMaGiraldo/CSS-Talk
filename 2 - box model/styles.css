@@ -11,14 +11,9 @@
 }
 
 .div-1 {
-  margin: 30px;
-  padding: 20px;
-  border: 10px solid red;
   background-color: teal;
 }
 
 .div-2 {
-  margin-left: 8px;
-  margin-top: 30px;
   background-color: tan;
 }
