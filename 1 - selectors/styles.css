@@ -92,10 +92,17 @@ section {
    Universal 
    ================================= */
 
+* {
+}
 /* =================================
    Direct children
    ================================= */
-
+.direct-children > p {
+  background-color: blue;
+}
 /* =================================
    Adjacent siblings
    ================================= */
+.adjacent-sibling .box + .box {
+  margin-left: 30px;
+}

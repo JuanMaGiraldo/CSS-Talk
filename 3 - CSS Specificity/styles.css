@@ -10,6 +10,14 @@
   border-radius: 10px;
 }
 
-.span-class {
-  background-color: rgb(78, 98, 98);
+.div-class .span-class.color-red {
+  background-color: yellowgreen;
+}
+
+.div-class .span-class {
+  background-color: red;
+}
+
+.color-red {
+  background-color: red !important;
 }
